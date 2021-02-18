@@ -418,9 +418,36 @@
         .c6-5__2{
             margin-right: 20.3125vw;
         }
-
+/* =================================================
+    Fin de Container 6
+=================================================*/
 
 
 /* =================================================
-    Fin de Container 6
+    Container 8
+=================================================*/
+.c8{
+    padding-top: 90px;
+    display: flex;
+    flex-direction: column;
+}
+
+.c8__1{
+    font-size: 86px;
+    color: #D5D5D5;
+    margin-left: 652px;
+    margin-right: 841px;
+    line-height: 1;
+}
+
+.c8__2{
+    font-size: 41px;
+    color: #D5D5D5;
+    margin-left: 652px;
+    margin-right: 763px;
+    margin-bottom: 48px;
+}
+
+/* =================================================
+    Fin de Container 8
 =================================================*/
