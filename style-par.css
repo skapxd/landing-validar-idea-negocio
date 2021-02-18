@@ -9,6 +9,7 @@
         padding: 0;
         margin: 0;
         font-family: 'Poppins', sans-serif;
+<<<<<<< HEAD
 
     }
 
@@ -24,6 +25,13 @@
      
     /* =================================================
     Container 2
+=======
+    }
+
+     
+    /* =================================================
+    Container 1
+>>>>>>> 44e645c... first commit
       =================================================*/
     .c2{
         height: 25vw;
@@ -93,12 +101,20 @@
         font-weight: bold;
     }
     /* =================================================
+<<<<<<< HEAD
     Fin de Container 2
+=======
+    Fin de Container 1
+>>>>>>> 44e645c... first commit
       =================================================*/
 
     
     /* =================================================
+<<<<<<< HEAD
     Container 4
+=======
+    Container 2
+>>>>>>> 44e645c... first commit
       =================================================*/
 .c4{ 
     display: flex;
@@ -221,13 +237,21 @@
             display: flex;
             flex-direction: column;
             height: 8.3125vw;
+<<<<<<< HEAD
             width: 27vw;
+=======
+            width: 32.4375vw;
+>>>>>>> 44e645c... first commit
         }
 
         .c4-4__2{
             display: flex;
             flex-direction: column;
+<<<<<<< HEAD
             width: 32.4375vw;
+=======
+            width: 519px;
+>>>>>>> 44e645c... first commit
 
         }
 
@@ -262,6 +286,7 @@
         }
 
         .c4-4__8{
+<<<<<<< HEAD
             width: 15.5vw;
             height: 3.3125vw;
             background-color: #FFB000;
@@ -270,6 +295,16 @@
             color: #FFF;
             font-weight: bold;
             font-size: 2vw;
+=======
+            width: 248px;
+            height: 53px;
+            background-color: #FFB000;
+            border: 0 none #fff;
+            border-radius: 6px;
+            color: #FFF;
+            font-weight: bold;
+            font-size: 32px;
+>>>>>>> 44e645c... first commit
             cursor: pointer;
             transition: background-color .3s ease-out;
         }
@@ -283,6 +318,7 @@
         .c4-4__8:hover {
             background-color: #be8407
         }
+<<<<<<< HEAD
     /* =================================================
         Fin de Container 4
     =================================================*/
@@ -502,3 +538,5 @@
 /* =================================================
     Fin de Container 8
 =================================================*/
+=======
+>>>>>>> 44e645c... first commit
