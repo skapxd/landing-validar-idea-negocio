@@ -12,9 +12,9 @@
 
     }
 
-    html, body {
+    /* html, body {
         overflow-x: hidden;
-    }
+    } */
 
     /* ::-webkit-scrollbar {display: none; } */
 
@@ -552,7 +552,7 @@
     display: flex;
     flex-direction: column;
     background-color: #EEEDED;
-    padding-top: 76px;
+    padding-top: 4.75vw;
     align-items: center;
 }
 
@@ -717,6 +717,67 @@
     Fin de Container 12
 =================================================*/
 
+
+
+/* =================================================
+    Container 13
+=================================================*/
+.c13{
+    display: flex;
+    flex-direction: column;
+    background-color: #EEE;
+    padding-top: 3.75vw;
+    padding-bottom: 3.625vw;
+}
+
+.c13__1{
+    display: flex;
+    flex-direction: row;
+}
+
+        .c13__1__1{
+            display: flex;
+            flex-direction: column;
+            margin-left: 40.625vw;
+        }
+
+                .c13__1__1__1{
+                    color: #3A0563;
+                    font-weight: bold;
+                    font-size: 1.5625vw;
+                }
+
+                .c13__1__1__2{
+                    color: #EE306C;
+                    font-weight: bold;
+                    font-size: 2.625vw;
+                }
+
+                .c13__1__1__3{
+                    color: #9D9D9D;
+                    font-weight: 300;
+                    font-size: 1.5625vw;
+                }
+
+        .c13__1__2{
+            width: 12.75vw;
+            height: 7.5625vw;
+            margin-left: 10.5vw;
+            /* margin-left: -10.5vw; */
+            margin-top: 5vw;
+        }
+        
+.c13__2{
+    height: 1.0625vw;
+    width: 9.625vw;
+    margin-bottom: 3.5vw;
+    margin-top: 2.25vw;
+    margin-left: 45.1875vw;
+    margin-right: 45.1875vw;
+}
+/* =================================================
+    Container 13
+=================================================*/
 
 
 /* =================================================
