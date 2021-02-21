@@ -12,13 +12,56 @@
 
     }
 
-    /* html, body {
+    html, body {
         overflow-x: hidden;
-    } */
+    }
+
+    .row{
+        display: flex;
+        flex-direction: row;
+
+        justify-content: center;
+        align-items: center;
+    }
+
+    .column{
+        display: flex;
+        flex-direction: column;
+        
+        justify-content: center;
+        align-items: center;
+    }
 
     /* ::-webkit-scrollbar {display: none; } */
 
+/* =================================================
+Container 1
+=================================================*/
+.c1{
+    height: 7.5vw;
+    width: 100vw;
+    margin: 1.875vw 1.25vw;
+    justify-content: space-between;
 
+}
+
+.c1__1{
+    height: 3.25vw;
+    width: 21.9375vw;
+}
+
+.c1__2{
+    padding: 0.1875vw 0.3125vw;
+    color: #A059F8;
+    font-size: 1.25vw;
+    border: 0.1875vw solid #A059F8;
+    text-decoration: none;
+    margin-right: 3.125vw;
+}
+/* =================================================
+Fin de Container 1
+=================================================*/
+    
 
 
      
@@ -27,7 +70,7 @@
       =================================================*/
     .c2{
         height: 25vw;
-        /* height: 400px; */
+        /* height: 400.*; */
         width: 100vw;
         background-color: #3a0563;
         display: flex;
@@ -36,19 +79,19 @@
 
     .c2 > img{
         height: 17.3125vw; 
-        /* height: 277px;  */
+        /* height: 277.*;  */
         width: 31.25vw;
-        /* width: 500px; */
+        /* width: 500.*; */
     }
     
     .c2-1{
         display: flex;
         flex-direction: column;
         font-size: 7.81vw;
-        /* font-size: 125px; */
+        /* font-size: 125.*; */
         justify-content: center;
         align-items: flex-end;
-        /* line-height: 120px; */
+        /* line-height: 120.*; */
         line-height: 7.81vw;
      }
 
@@ -58,9 +101,9 @@
     }
 
     .c2-1 > img {
-        /* height: 56px; */
+        /* height: 56.*; */
         height: 3.5vw;
-        /* width: 134px; */
+        /* width: 134.*; */
         width: 8.375vw;
     }
 
@@ -68,7 +111,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        /* line-height: 60px; */
+        /* line-height: 60.*; */
         line-height: 3.75vw;
     }
 
@@ -79,7 +122,7 @@
     }
 
     .c2-2__2{
-        /* font-size: 53px; */
+        /* font-size: 53.*; */
         font-size: 3.3125vw;
         color: #ffb000;
         font-weight: bold;
@@ -88,7 +131,7 @@
     .c2-2__3{
         
         font-size: 3.3125vw;
-        /* font-size: 53px; */
+        /* font-size: 53.*; */
         color: #fff;
         font-weight: bold;
     }
@@ -96,11 +139,43 @@
     Fin de Container 2
       =================================================*/
 
+
+/* =================================================
+Container 3
+=================================================*/
+
+.c3__1__1{
+    margin-top: 3vw;
+    width: 68vw;
+    height: 38.1875vw;
+    margin-bottom: 3vw;
+
+}
+
+.c3__1__2__1{
+    /* background-color: turquoise; */
+    height: 1.6875vw;
+    width: 1.6875vw;
+    margin: 2vw 0;
+}
+
+
+.c3__2{
+    height: 1.1vw;
+    width: 10vw;
+}
+
+
+/* =================================================
+Fin de Container 3
+=================================================*/
+
     
     /* =================================================
     Container 4
       =================================================*/
-.c4{ 
+
+      .c4{ 
     display: flex;
     flex-direction: column;
     background-color: #fff;
@@ -209,6 +284,7 @@
     padding-top: 6.0625vw;
     display: flex;
     flex-direction: row;
+    margin-bottom: 5vw;
 
 }
 
@@ -270,7 +346,7 @@
             color: #FFF;
             font-weight: bold;
             font-size: 2vw;
-            /* padding: 10px; */
+            /* padding: 10.*; */
             cursor: pointer;
             transition: background-color .3s ease-out;
         }
@@ -288,7 +364,112 @@
         Fin de Container 4
     =================================================*/
 
+
+/* =================================================
+    Container 5
+=================================================*/
+.c5{
+    /* top: 0; */
+    margin-top: 3vw;
+}
+
+
+.c5__2{
+    top: 0;
+    align-items: flex-end;
+    margin-bottom: 3vw;
+}
+
+        .c5__2__1{
+            align-items: flex-start;
+            margin-right: 2vw;
+        }
+
+                .c5__2__1__1{
+                    font-size: 5.375vw;
+                    color: #d5d5d5;
+                    line-height: 1;
+                }
+                
+                .c5__2__1__2{
+                    font-size: 2.5625vw;
+                    color: #d5d5d5;
+
+                }
+.c5__3{
+    align-items: flex-start;
+
+}
+
+
+        .c5__3__1{
+            margin-bottom: 1vw;
+            height: 12.5vw;
+            width: 12.5vw;
+        }
+
+        .c5__3__2{
+            color: #3A0563;
+            font-size: 2.3125vw;
+            line-height: 1;
+        }
+
+        
+        .c5__3__3{
+            color: #EE306C;
+            font-size: 2.3125vw;
+            /* line-height: 1; */
+        }
+
+.c5__4{
+    position: relative;
+    height: 8.8125vw;
+    width: 13.8125vw;
+    top: -3.125vw;
+    left: -5vw;
+}
+
+.c5__5{
+    width: 53.5vw;
+    height: 30vw;
+    margin-bottom: 3vw;    
+}
+
+.c5__6{
+    top: 0;
+
+}
+
+
+        .c5__6__1{
+            align-items: flex-start;
+            margin-right: 3vw;
+        }
+
+                .c5__6__1__1{
+                    color: #3A0563;
+                    font-size: 2.1875vw;
+                }
+
+                .c5__6__1__2{
+                    color: #9C59F4;
+                    font-size: 2.1875vw;
+                }
+
+                
+                .c5__6__1__3{
+                    color: #9D9D9D;
+                    font-size: 1.5625vw;
+                    font-weight: 400;
+                }
+
+/* =================================================
+    Fin de Container 5
+=================================================*/
+
+
     
+
     /* =================================================
         Container 6
     =================================================*/
@@ -298,6 +479,7 @@
     background-color: #EEEEEE;
     display: flex;
     flex-direction: column;
+    padding-bottom: 5vw;
 }
 
 .c6-1{
@@ -413,15 +595,115 @@
                     font-weight: 300;
                     font-size: 1.75vw;
                     margin-right: 10.0625vw;
-
+                    
                 }
-
+                
         .c6-5__2{
             margin-right: 20.3125vw;
         }
 /* =================================================
     Fin de Container 6
 =================================================*/
+
+/* =================================================
+    Container 7
+=================================================*/
+
+.c7__1{
+    height: 1.0625vw;
+    width: 9.625vw;
+    margin-top: 1vw;
+    margin-bottom: 3vw;
+} 
+
+.c7__2{
+    margin-bottom: 3vw;
+}
+
+
+        .c7__2__1{
+            margin-top: 10vw;
+            margin-right: 3vw;
+        }
+
+                .c7__2__1__1{
+                    font-size: 5.375vw;
+                    color: #D5D5D5;
+                    line-height: 1;
+                    margin-left: -5vw;
+                }
+
+                .c7__2__1__2{
+                    font-size: 2.5625vw;
+                    color: #D5D5D5;
+
+                }
+
+
+                .c7__2__2__1{
+                    height: 11vw;
+                    width: 11vw;
+                    margin-left: -15vw;
+                }
+
+                .c7__2__2__2{
+                    font-size: 2.3125vw;
+                    color: #3A0563;
+                    width: 26vw;
+                    line-height: 1.4;
+                }
+                
+                .c7__2__2__3{
+                    font-size: 2.3125vw;
+                    color: #EE306C;
+                    width: 26vw;
+                    line-height: 1;
+                }
+
+                .c7__2__3{
+                    width: 18.8125vw;
+                    height: 8vw;
+                    margin-top: 11.3vw;
+                    margin-left: -8vw;
+                }
+
+.c7__3{
+    width: 53.5vw;
+    margin-bottom: 3vw;
+}
+
+        .c7__4__1{
+            align-items: flex-start;
+            margin-right: 4vw;
+        }
+
+                .c7__4__1__1{
+                   color: #9C59F4;
+                   font-size: 2.1875vw;
+
+                }
+
+                .c7__4__1__2,
+                .c7__4__1__3{
+                    color: #9D9D9D;
+                    font-weight: bold;
+                    font-size: 1.5625vw;
+                }
+
+                .c7__4__1__3 span,
+                .c7__4__1__4{
+                    color: #9D9D9D;
+                    font-weight: 400;
+                    font-size: 1.5625vw;
+                }
+
+
+/* =================================================
+    Fin de Container 7
+=================================================*/
+
+
+
 
 
 /* =================================================
@@ -509,7 +791,7 @@
     flex-direction: row;
     margin-left: 26.1875vw;
     margin-right: 20.4375vw;
-    margin-bottom: 14vw;
+    margin-bottom: 5vw;
     /* background-color: burlywood; */
 }
 
@@ -523,7 +805,7 @@
                 .c8__5__1__1{
                     color: #3A0563;
                     font-size: 2.25vw;
-                    /* font-size: 45px; */
+                    /* font-size: 45.*; */
                     line-height: 1.2;
                     font-weight: bold;
                     width: 39.125vw;
@@ -546,6 +828,190 @@
 
 
 /* =================================================
+    Container 9
+=================================================*/
+
+.c9{
+    width: 100vw;
+    /* height: 58.4375vw; */
+    background-color: #3A0563;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:5.625vw;
+    padding-bottom:5.625vw;
+}
+
+.c9__1{
+    background: #fff;
+    width: 32vw;
+    border-radius: 1.575vw;
+    padding-top: 2.5vw;
+    padding-left: 2.1875vw;
+    padding-right: 10vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.c9__2{
+    color: #745CA3;
+    font-weight: bold;
+    font-size: 2.1825vw;
+    line-height: 1;
+}
+
+.c9__3{
+    height: 0.1875vw;
+    width: 10.25vw;
+    margin-top: 0.1vw;
+    background-color: #745CA3;
+
+}
+
+.c9__4{
+    width: 12.6875vw;
+    height: 8.125vw;
+    position: relative;
+    top: 6.25vw;
+    right: -19.625vw;
+    transform: rotate(15deg);
+}
+
+.c9__5{
+    position: relative;
+    padding-left: 1.25vw;
+    font-size: 1.375vw;
+    color: #818282;
+    font-weight: 600;
+    top: 2.5vw;
+    transition: 
+        top .3s ease-out, 
+        color .3s ease-out, 
+        font-size .3s ease-out;
+}
+
+.active{
+    top: 1.25vw;
+    font-size: 1vw;
+    color: #b9b9b9;
+    font-weight: 600;
+}
+
+.c9__6
+{
+    font-size: 1vw;
+    color: #303f9f;
+    width: 100%;
+    outline: none;
+    padding: 0.625vw;
+    margin-top: 1.85vw;
+    /* margin-bottom: 30.*; */
+    background: none;
+    border: none;
+    border-bottom: 0.125vw solid #bbdefb;
+    font-family: "Roboto";
+    transition: border-bottom .3s ease-out;
+}
+
+.c9__6:active,
+.c9__6:focus {
+    outline: none;
+    border-bottom: 0.125vw solid #303f9f;
+}
+
+  
+.error{
+    
+    border-bottom: 0.125vw solid #d32f2f;
+    /* color: #d32f2f; */
+}
+
+.c9__7{
+    margin-top: 1.875vw;
+    color: #818282;
+    font-size: 1.25vw;
+}
+
+
+input[type='checkbox']{
+    display: none;
+    transition: all 0.3s ease;
+}
+
+.c9__7__1{
+    width: 17.5vw;
+    color: #818282;
+    padding: 0.325vw 1vw;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    margin-top: 0.325vw;
+}
+
+.c9__7__1:hover{
+    background-color: rgba(55, 5, 99, 0.1);
+}
+
+.c9__7__1:before{
+    content: '';
+    height: 0.75vw;
+    width: 0.75vw;
+    display: inline-block;
+    border: 0.125vw solid rgba(55, 5, 99, 0.5);
+    border-radius: 0.325vw;
+    margin-right: 0.625vw;
+    transition: all 0.3s ease;
+}
+
+input[type='checkbox']:checked + .c9__7__1{
+    background-color: #745CA3;
+    transition: all 0.3s ease;
+    color: white;
+}
+
+input[type='checkbox']:checked + .c9__7__1:before{
+    display: none;
+    margin-right: 0;
+}
+
+.terminos{
+    width: 28.125vw;
+    margin-top: 1.875vw;
+}
+
+.btn-form{
+    margin-top: 3.125vw;
+    width: 9.375vw;
+    margin-left: 14vw;
+    margin-bottom: 3.125vw;
+    border: none;
+    color: #fff;
+    padding: 0.325vw 0;
+    background-color: #E7316C;
+    font-size: 1.125vw;
+    border-radius: 1.875vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-form:hover{
+    background-color: #991b43;
+
+}
+.btn-form:focus,
+.btn-form:active{
+    outline: none;
+}
+
+/* =================================================
+    Fin de Container 9
+=================================================*/
+
+
+
+
+/* =================================================
     Container 10
 =================================================*/
 .c10{
@@ -564,7 +1030,7 @@
 
 .c10__2{
     color: #37245E;
-    /* font-size: 37px; */
+    /* font-size: 37.*; */
     font-size: 2.3125vw;
 
     font-weight: bold;
@@ -607,7 +1073,7 @@ img.c11__1{
     height: 4.75vw;
     width: 20.1875vw;
     margin-left: 42.75vw;
-    margin-bottom: 5.125vw;
+    margin-bottom: 3vw;
 }
 
 .c11__2{
@@ -619,6 +1085,8 @@ img.c11__1{
     font-size: 1.125vw;
     color: #fff;
     font-weight: 300;
+    margin-bottom: 1.5vw;
+
 }
 
 
